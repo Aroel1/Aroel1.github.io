@@ -1,0 +1,79 @@
+body {
+	font-weight: bold;
+	font-family: arial, sans-serif;
+	color: red;
+	padding: 0;
+	margin: 0;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: #323232 no-repeat center top / cover;
+	height: 63px;
+}
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+
+					/* левое меню */
+
+.left {
+	margin-left: 300px;
+	float: left;
+	margin-top: 32px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 22px;
+}
+
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+					/* Logo */
+.logo {
+	margin-top: 29px;
+}
+
+					/* Правое меню */
+
+.right {
+	float: right;
+	margin-right: 239px;
+	margin-top: 32px;
+}
+
+.menu1{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu1 li {
+	float: left;
+	display: block;
+	margin-left: 22px;
+}
+
+.menu1 li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}

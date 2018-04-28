@@ -1,0 +1,266 @@
+body {
+	font-weight: bold;
+	font-family: arial, sans-serif;
+	color: red;
+	padding: 0;
+	margin: 0;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: #323232 no-repeat center top / cover;
+	height: 63px;
+}
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+					/* левое меню */
+
+.left {
+	margin-left: 300px;
+	float: left;
+	margin-top: 32px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 22px;
+}
+
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+					/* Logo */
+.logo {
+	margin-top: 29px;
+}
+
+					/* Правое меню */
+
+.right {
+	float: right;
+	margin-right: 239px;
+	margin-top: 32px;
+}
+
+.menu1{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu1 li {
+	float: left;
+	display: block;
+	margin-left: 22px;
+}
+
+.menu1 li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+				/* Фон */
+
+.imeges {
+	background: #fff no-repeat center top / cover;
+	height: 720px;
+}
+
+				/* 1й блок картинок */
+
+.services1 {
+margin-top: 90px;
+margin-right: 100px;
+display: block;	
+}
+
+.services__item1 {
+	display: block;
+	float: right;
+	margin-left: 10px;
+}
+
+				/* 2й блок картинок */
+
+.services2 {
+	margin-left: 24px;
+}
+
+.services__item2 {
+	float: left;
+	margin-left: 10px;
+}
+				/* 3й блок картинок */
+.services3 {
+
+margin-right: 100px;
+display: block;	
+}
+
+.services__item3 {
+	display: block;
+	float: right;
+	margin-left: 10px;
+}
+
+.faq {
+	background: #2eb398;
+	height: 341px;
+}
+
+.icon14 {
+	margin-top: 68px;
+	margin-left: 100px;
+	float: left;	
+}
+
+.infotxt {
+
+	float: right;
+	line-height: 0.3em;
+}
+
+h1 {
+	margin-top: 100px;
+	margin-right: 450px;
+	color: #fff;
+	font-family: Comic Sans MS;
+}
+
+h3 {
+color: #20816d;
+font-size: 18px;
+font-family: Comic Sans MS;
+}
+
+p {
+	font-size: 12px;
+	line-height: 1.6em;
+	color: #fff;
+}
+
+.services__faq {
+	float: right;
+	margin-top: 30px;
+	padding: 0;
+}
+
+.email {
+	background: #323232;
+	height: 566px;
+
+}
+
+
+form {
+float: left;
+margin-top: 25px;
+}
+
+.eemail {
+	margin: 16px 0 0 0;
+	width: 579px;
+	height: 37px;
+	background: #454545;
+	border: 2px solid #454545;
+	border-radius: 10px;
+	font-family: Comic Sans MS;
+}
+
+.name {
+	margin: 16px 0 0 0;
+	width: 579px;
+	height: 37px;
+	background: #454545;
+	border: 2px solid #454545;
+	border-radius: 10px;
+	font-family: Comic Sans MS;
+}
+
+.send {
+	margin: 16px 0 0 495px;
+	width: 89px;
+	height: 37px;
+	background: #2eb398;
+	border: 2px solid #2eb398;
+	border-radius: 10px;
+	font-family: Comic Sans MS;
+}
+
+textarea {
+	margin: 16px 0 0 0;
+	width: 576px;
+	height: 150px;
+	background: #454545;
+	border: 2px solid #454545;
+	border-radius: 10px;
+	font-family: Comic Sans MS;
+}
+
+.emailtxt {
+	padding-top: 67px;
+	font-size: 30px;
+	color: #e0e0e0;
+	line-height: 0.1em;
+	font-family: Comic Sans MS;
+}
+
+.p {
+	font-size: 18px;
+	line-height: 0.1em;
+}
+
+.information {
+	float: right;
+}
+
+h6 {
+	
+	font-size: 12px;
+	margin-right: 185px;
+	padding-top: 9px;
+	color: #e0e0e0;
+	line-height: 1.9em;
+	font-family: Comic Sans MS;
+}
+
+.s1 {
+float: left;
+margin-left: 27px;
+}
+
+h2 {
+	font-size: 14px;
+	color: #e0e0e0;
+	font-family: Comic Sans MS;
+}
+
+footer {
+	background: #222222;
+	height: 43px;
+}
+.aroel {
+	font-size: 15px;
+	margin: 0px;
+	padding-top: 20px;
+	color: #3d3d3d;
+	font-family: Comic Sans MS;
+}
