@@ -1,0 +1,614 @@
+body {
+	background: url(../img/fon.png) no-repeat center top / cover;
+	height: 4001px;
+}
+
+.centered {
+	text-align: center;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background: url(../img/header.png) no-repeat center top / cover;
+	height: 135px;
+}
+
+.logo {
+	margin-top: 10px;
+}
+
+
+
+.menu {
+margin-top: 23px;
+
+}
+
+.menu__item {
+display: table-cell;
+font-family: 'Cormorant Unicase', serif;
+font-weight: bold;
+
+}
+
+.menu__item a {
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;	
+	margin-right: 30px;
+}
+
+.time {
+	font-size: 14px;
+	color: #fff;
+	margin-top: 15px;
+}
+
+.menu__itemt {
+display: table-cell;
+font-family: 'Cormorant Unicase', serif;
+font-weight: bold;
+
+}
+
+.menu__itemt a {
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;	
+	margin-right: 25px;
+}
+
+.menu__two {
+	margin-top: 23px;
+	margin-left: -25px;
+}
+
+.call {
+	margin-left: 155px;
+}
+
+ a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.phone {
+	font-size: 12px;
+
+}
+
+tt {
+	margin-left: 120px;
+}
+
+form div {
+	margin: 5px 20px 5px 20px;
+	position: relative;
+}
+
+fieldset {
+	margin-top: -20px;
+}
+
+label {
+	position: absolute;
+	top: 3px;
+	left: 6px;
+	color: #818181;
+
+}
+input, button {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+input {
+  width: 100%;
+  height: 32px;
+  background: #F9F0DA;
+  padding-left: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+button {
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #F15B42;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+
+.log {
+	margin-top: 15px;
+}
+
+/*--------------------------------*/
+
+.katalog {
+	background: url(../img/katalog.png) no-repeat center top / cover;
+	height: 49px;
+}
+
+
+
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menuu > li {
+    float: left;
+    position: relative;
+}
+ul.menuu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #41b5d7;
+    text-decoration: none;
+    width: 263px;
+    height: 49px;
+
+}
+ul.menuu > li > a:hover {
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 263px;
+    top: 48px;
+    left: 0;
+    background-color: white;
+
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+    border-bottom:1px solid #e0e0e0;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+.menuu {
+	margin-left: 200px;
+}
+
+ul.menuu > li:hover > ul.submenu {
+    display: block;
+}
+form {
+  position: relative;
+  width: 360px;
+  margin: 0 auto;
+
+}
+.input, .button {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+.input {
+  width: 360px;
+  height: 42px;
+  background: #F9F0DA;
+  padding-left: 15px;
+}
+.button {
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #F15B42;
+  cursor: pointer;
+}
+.button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #F9F0DA;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.lu {
+	margin-top: 3px;
+}
+
+.fa-balance-scale {
+	color: #fccb8d;
+	padding-top: 15px;
+	font-size: 22px;
+	margin-left: -70px;
+}
+
+.fa-heart {
+    color: #fccb8d;
+    padding-top: 15px;
+   font-size: 22px;
+   margin-left: -70px;
+}
+
+.fa-shopping-cart {
+    color: #fccb8d;
+    padding-top: 15px;
+  font-size: 22px;
+  margin-left: -70px;
+}
+
+.slidee {
+	margin-left: 300px;
+	margin-top: 30px;
+}
+
+
+h1 {
+	height: 55px;
+	margin-top: 60px;
+    position: relative;
+    overflow: hidden;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: left;
+    color: #1d80bf;
+    font-family: 'Pacifico', cursive;
+
+  }
+  h1 > span {
+    display: inline-block;
+    margin: 0 .4em;
+  }
+  h1 > span:before,
+  h1 > span:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-top: 2px solid #e0e0e0;
+    margin-top: .6em;
+  }
+  h1 > span:before {
+    margin-left: -102%;
+  }
+  h1 > span:after {
+    margin-left: 2%;
+  }
+
+.iconn {
+	margin-top: 70px;
+}
+
+  .icons {
+  	margin-top: 30px;
+  }
+
+.img__bars {
+margin: 20px;
+margin-top: 44px;
+}
+
+.lego {
+	width: 65px;
+	height: 65px;
+}
+
+.hasbro {
+	width: 80px;
+	height: 80px;
+}
+
+.intex {
+	width: 149px;
+	height: 40px;
+}
+
+.star {
+	width: 126px;
+	height: 60px;
+}
+
+.paw {
+	width: 80px;
+	height: 70px;
+}
+
+.kateg {
+	margin-top: 20px;
+	height: 100px;
+	font-family: 'Pacifico', cursive;
+
+}
+
+.btn-danger {
+	width: 119px;
+	height: 43px;
+	border-radius: 30px;
+	font-weight: bold;
+	margin-top: 375px;
+}
+
+h5 {
+font-family: 'Pacifico', cursive;
+margin-top: -45px;
+margin-left: 37px;
+color: #1d80bf;
+}
+
+.inform {
+	font-size: 18px;
+	font-family: 'Open Sans', serif;
+	float: right;
+	margin-top: 12px;
+}
+
+.order {
+	margin-top: 60px;
+}
+
+.new {
+	margin-top: 60px;
+}
+
+.what {
+	font-size: 21px;
+	    font-family: 'Pacifico', cursive;
+	        color: #1d80bf;
+margin-left: 15px;
+line-height: 0.1em;
+}
+
+.c {
+	margin-top: 100px;
+}
+
+
+.submit {
+	width: 320px;
+	height: 43px;
+	margin-top: 90px;
+	margin-right: 207px;
+	 	border-radius: 50px;
+
+}
+
+.namee, .emaill {
+	width: 320px;
+	height: 43px;
+ 	margin-left: -175px;
+ 	border-radius: 50px;
+ 	margin-top: -100px;
+ 	
+}
+
+.message {
+	margin-left: 180px;
+	margin-top: -115px;
+	height: 160px;
+	width: 458px;
+	border-radius: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.imeges {
+	margin-top: -70px;
+	width: 340px;
+	height: 250px;
+}
+
+h6 {
+	font-size: 16px;
+	text-align: left;
+}
+
+.all4kids {
+	margin-top: 50px;
+}
+
+
+footer {
+	background: url(../img/footer.png) no-repeat center top / cover;
+	height: 250px;
+	margin-top: 45px;
+}
+
+.logo__footer {
+	width: 156px;
+	height: 50px;
+	margin-top: 40px;
+}
+
+.footer__txt {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 18px;
+	color: #fff;
+	margin-left: 15px;
+}
+
+
+h4 {
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 35px;
+}
+
+.ont__txt {
+	margin-top: 3px;
+}
+
+.menu__footer a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu__footer {
+	font-size: 12px;
+	margin-top: 12px;
+}
+
+.contacte {
+	font-size: 12px;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.contacte, .contactee {
+	margin-left: 90px;
+}
+
+.all4 {
+	margin-right: 40px;
+}
+
+.i {
+	margin-left: 80px;
+	margin-top: 35px;
+}
+
+.i i{
+	margin: 15px;
+}
+
+
+.dropbtn {
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 60px;
+}
+
+.dropbtn
+{
+  background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png') no-repeat left center;
+  padding-left: 25px;
+  width: 40px;
+}
+
+.dropbtn::after {
+    background: rgba(0, 0, 0, 0) url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-16.png") no-repeat scroll center center;
+    content: "";
+    height: 16px;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    width: 16px;
+}
+
+.dropdown-content a:first-child
+{
+  background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png') no-repeat left center;
+}
+
+.dropdown-content a:last-child
+{
+  background: url('http://www.miru-mir.info/images/en.gif') no-repeat left center;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 2px 0 2px 25px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ul.menu__thre > li {
+    float: left;
+    position: relative;
+}
+
+ul.menu__thre > li > a {
+    display: block;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+
+    font-size: 30px;
+    padding-left: 23px;
+    padding-top: 10px;
+}
+
+
+ul.menu__thre > li > a:hover {
+    
+    color: #fff
+}
+ul.submenu__thre {
+    display: none;
+    position: absolute;
+   
+    top: 72px;
+    
+    left: 0;
+    background-color: white;
+    font-size: 16px;
+    padding: 6px;
+    margin-left: -60px;
+    padding-left: 40px;
+    padding-top: 10px;
+
+}
+ul.submenu__thre > li {
+    display: block;
+}
+ul.submenu__thre > li > a {
+    display: block;
+    padding: 10px;
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+}
+ul.submenu__thre > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.menu__thre > li:hover > ul.submenu__thre {
+    display: block;
+}
