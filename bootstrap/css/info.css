@@ -6,16 +6,6 @@ border-radius: 10px;
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.inform{
-    padding: 0;
-    background: url(../img/fon.jpg) no-repeat center top / cover;
-}
-
 
 .context-dark, .bg-gray-dark, .bg-primary {
     color: rgba(255, 255, 255, 0.8);
@@ -67,5 +57,4 @@ ul, ol {
     visibility: hidden;
     transition: .22s ease;
 }
-
 
