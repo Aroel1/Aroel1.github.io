@@ -1,0 +1,104 @@
+body {
+	overflow-x: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.txt {
+  background: url(../img/work2.png) no-repeat center top / cover;
+  height: 236px;
+  width: 450px;
+  margin: 0 auto;
+  box-shadow: 0 0 30px rgba(255, 255, 255,0.6)
+}
+
+.text__img {
+  opacity: 0;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Segoe UI';
+  line-height: 236px;
+  text-align: center;
+  color: #fff;
+  transition: .5s ease;
+}
+
+.txt:hover p {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}   
+
+/*  ----------2- -------  */
+
+.txt__Two {
+  background: url(../img/work1.png) no-repeat center top / cover;
+  height: 236px;
+  width: 450px;
+  margin: 0 auto;
+  box-shadow: 0 0 30px rgba(255, 255, 255,0.6)
+}
+
+.text__img {
+ 
+  opacity: 0;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Segoe UI';
+  line-height: 236px;
+  text-align: center;
+  color: #fff;
+  transition: .5s ease;
+}
+
+.txt__Two:hover p {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+	/*  ----------3---------  */
+
+
+.txt__Three {
+  background: url(../img/work3.png) no-repeat center top / cover;
+  height: 236px;
+  width: 450px;
+  margin: 0 auto;
+  box-shadow: 0 0 30px rgba(255, 255, 255,0.6)
+}
+
+.text__img {
+  opacity: 0;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Segoe UI';
+  line-height: 236px;
+  text-align: center;
+  color: #fff;
+  transition: .5s ease;
+}
+
+.txt__Three:hover p {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+iframe {
+	box-shadow: 0 0 30px rgba(23, 162, 184,0.6);
+	width: 800px;
+}
+
+li {
+	list-style-type: none;
+	line-height: 3em
+}
+
+.i {
+	color: #17a2b8
+}
+
