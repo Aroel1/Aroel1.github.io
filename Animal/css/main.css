@@ -1,0 +1,289 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fafafa;
+}
+
+header {
+  background: center / cover no-repeat url(../img/fon.png);
+  padding-bottom: 10%;
+}
+
+.navbar-brand {
+font-family: 'Georgia', sans-serif;
+font-size: 30px;
+line-height: 0.9em;
+margin-top: 2%;
+}
+
+.navbar-brand-text {
+  font-family: 'Arial', sans-serif;
+  font-size: 13px;
+  color: #fff;
+}
+
+.nav-link {
+  position: relative;
+  color: #00a650; /*задаём цвет ссылки*/
+  cursor: pointer;
+  line-height: 1; /*задаём высоту строки*/
+  text-decoration: none; /*убираем подчёркивание*/
+
+}
+.nav-link:after {
+  margin-top: 4%;
+  border-radius: 50px;
+  display: block;
+  position: absolute;
+  left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+  width: 0;/*задаём длинну линии до наведения курсора*/
+  height: 4px; /*задаём ширину линии*/
+  background-color: #f1cdb3; /*задаём цвет линии*/
+  content: "";
+  transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+
+.nav-link:hover:after,
+.nav-link:focus:after {
+  width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+h1 {
+  margin-top: 12%;
+  font-size: 44px;
+  font-family: 'Georgia', sans-serif;
+  color: #fff;
+}
+
+.h1__text {
+   width: 35%;
+}
+
+.btn-light {
+  margin-top: 3%;
+  width: 200px;
+  border-radius: 100px;
+  font-family: 'Georgia', sans-serif;
+  font-size: 17px;
+  color: #292929;
+  background: #f1cdb3;
+}
+
+
+/*----------------ABOUT---------------- */
+
+.pets {
+  margin-top: 15%;
+}
+
+h2 {
+  color: #545454;
+  font-size: 35px;
+  font-family: 'Georgia', sans-serif;
+  margin-top: 20%;
+}
+
+.h2__text {
+      width: 90%;
+    }
+
+/*----------------Pets---------------- */
+
+
+.pets__fon {
+  background: #f6f6f6;
+  padding-bottom: 5%;
+}
+
+h3 {
+  margin-top: 5%;
+   color: #545454;
+   font-size: 35px;
+  font-family: 'Georgia', sans-serif;
+  text-align: center;
+}
+
+.pet__text {
+  margin-top: 3%;
+  font-size: 20px;
+  font-family: 'Georgia', sans-serif;
+  color: #545454;
+}
+
+.btn-outline-danger {
+  border-radius: 50px;
+}
+
+.btn-danger {
+  font-size: 17px;
+  font-family: 'Georgia', sans-serif;
+  background: #fddcc4;
+  color: #545454;
+  border-radius: 50px;
+  width: 250px;
+  margin-top: 5%;
+}
+
+/*-------------HELP-------------*/
+
+.fas, .fab {
+  font-size: 90px;
+  color: #f1cdb3;
+  text-shadow: #000 0 0 1px;
+}
+
+.help__fon {
+  padding-bottom: 5%;
+  background: #fafafa;
+}
+
+.icons__help {
+  margin-top: 5%;
+  color: #545454;
+  font-size: 25px;
+  font-family: 'Georgia', sans-serif;
+}
+
+/*---------Donate ---------------*/
+
+.donate {
+  padding-bottom: 5%;
+  background: #f6f6f6;
+}
+
+h4 {
+  color: #545454;
+   font-size: 35px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.h4 {
+  margin-top: 4%;
+    color: #545454;
+   font-size: 15px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.card__donate__text {
+  font-size: 12px;
+  width: 55%;
+}
+
+.fa-credit-card {
+
+  font-size: 20px;
+  color: #292929;
+}
+
+.card__donate {
+  padding: 2%;
+  margin-top: 4%;
+  width: 48%;
+  background: #f1cdb3;
+  border-radius: 10px;
+  color: #292929;
+}
+
+.donate__number {
+  font-size: 20px;
+}
+
+/*-----------FOOTER-----------*/
+
+footer {
+  background: center / cover no-repeat url(../img/footer.png);
+
+}
+
+h5 {
+      color: #fff;
+   font-size: 35px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.contact__text {
+  margin-top: 5%;
+  font-size: 20px;
+  color: #f1cdb3;
+}
+
+.fa-envelope, .fa-phone, .fa-map-marker-alt{
+  padding-right: 2%;
+  font-size: 22px;
+  color: #f1cdb3;
+}
+
+@media screen and (max-width: 320px) {
+
+    h1 {
+      text-align: center;
+      text-shadow: #000 0 0 1px;
+    }
+
+    .h1__text {
+      width: 100%;
+      text-align: center;
+    }
+
+    .btn-light {
+      margin-left: 13%;
+    }
+    /*------Pets---------*/
+    .pets__fon {
+      padding-bottom: 10%;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .h2__text {
+      text-align: center;
+      width: 100%;
+    }
+
+    .learn {
+      margin-top: 10%;
+    }
+
+   
+
+    /*---------Donate-----------*/
+
+    h4 {
+      margin-top: 10%;
+      text-align: center;
+    }
+
+    .h4 {
+      text-align: center;
+    }
+
+    .card__donate {
+      width: 100%;
+    }
+
+    .card__donate__text {
+      width: 100%;
+      text-align: center;
+      font-size: 15px;
+    }
+
+    /*-------FOOTER------*/
+
+    h5 {
+      text-align: center;
+      margin-top: 10%;
+    }
+
+    .contact__text {
+      text-align: center;
+    }
+
+    .img {
+      margin-left: 20%;
+    }
+
+
+
+}
+

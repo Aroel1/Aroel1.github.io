@@ -1,0 +1,129 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fafafa;
+}
+
+.navbar-toggler {
+  background: #e3e3e3;
+}
+
+.navbar-brand {
+font-family: 'Georgia', sans-serif;
+font-size: 30px;
+line-height: 0.9em;
+margin-top: 2%;
+}
+
+.navbar-brand-text {
+  font-family: 'Arial', sans-serif;
+  font-size: 13px;
+  color: #545454;
+}
+
+.nav-link {
+  position: relative;
+  color: #00a650; /*задаём цвет ссылки*/
+  cursor: pointer;
+  line-height: 1; /*задаём высоту строки*/
+  text-decoration: none; /*убираем подчёркивание*/
+
+}
+.nav-link:after {
+  margin-top: 4%;
+  border-radius: 50px;
+  display: block;
+  position: absolute;
+  left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+  width: 0;/*задаём длинну линии до наведения курсора*/
+  height: 4px; /*задаём ширину линии*/
+  background-color: #f1cdb3; /*задаём цвет линии*/
+  content: "";
+  transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+
+.nav-link:hover:after,
+.nav-link:focus:after {
+  width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+/*-----Pets_items----------*/
+
+
+
+.pets__item {
+  padding-bottom: 3%;
+  background: #f6f6f6;
+}
+
+h1 {
+  font-family: 'Georgia', sans-serif;
+  font-size: 50px;
+  color: #545454;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.s:hover {
+
+  border-radius: 20px;
+  padding-top: 6%;
+  background: #fafafa;
+  height: 400px;
+  transition: 0.3s ease-out;
+}
+
+/*-----------FOOTER-----------*/
+
+footer {
+  background: center / cover no-repeat url(../img/footer.png);
+
+}
+
+h5 {
+      color: #fff;
+   font-size: 35px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.contact__text {
+  margin-top: 5%;
+  font-size: 20px;
+  color: #f1cdb3;
+}
+
+.fa-envelope, .fa-phone, .fa-map-marker-alt{
+  padding-right: 2%;
+  font-size: 22px;
+  color: #f1cdb3;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .s {
+    margin-top: 10%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+    /*-------FOOTER------*/
+
+    h5 {
+      text-align: center;
+      margin-top: 10%;
+    }
+
+    .contact__text {
+      text-align: center;
+    }
+
+    .img {
+      margin-left: 20%;
+    }
+
+
+
+}
+
